@@ -209,6 +209,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\WSC2017_TP09_S1_ES.pdf" />
+    <None Include="Resources\WSC2017_TP09_S1_UserData.csv" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -227,6 +229,7 @@
       <DependentUpon>ModelSession1.edmx</DependentUpon>
       <LastGenOutput>ModelSession1.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\WSC2017_TP09_S1_Session1-MsSQL.sql" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

@@ -69,5 +69,61 @@ namespace Amonic.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] WSC2017_TP09_S1_ES {
+            get {
+                object obj = ResourceManager.GetObject("WSC2017_TP09_S1_ES", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to USE [session1]
+        ///GO
+        ///SET ANSI_NULLS ON
+        ///GO
+        ///SET QUOTED_IDENTIFIER ON
+        ///GO
+        ///CREATE TABLE [dbo].[Countries](
+        ///	[ID] [int] IDENTITY(1,1) NOT NULL,
+        ///	[Name] [nvarchar](50) NOT NULL,
+        /// CONSTRAINT [PK_Country] PRIMARY KEY CLUSTERED 
+        ///(
+        ///	[ID] ASC
+        ///)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+        ///) ON [PRIMARY]
+        ///
+        ///GO
+        ///SET ANSI_NULLS ON
+        ///GO
+        ///SET QUOTED_IDENTIFIER ON
+        ///GO
+        ///CREATE TABLE [dbo].[Offices](
+        ///	[ID] [int] IDENTITY(1,1) NOT N [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string WSC2017_TP09_S1_Session1_MsSQL {
+            get {
+                return ResourceManager.GetString("WSC2017_TP09_S1_Session1_MsSQL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Administrator,j.doe@amonic.com,123,John,Doe,Abu dhabi,1/13/1983,1
+        ///User,k.omar@amonic.com,4258,Karim,Omar,Abu dhabi,3/19/1980,1
+        ///User,h.saeed@amonic.com,2020,Hannan,Saeed,Cairo,12/20/1989,1
+        ///User,a.hobart@amonic.com,6996,Andrew,Hobart,Riyadh,1/30/1990,1
+        ///User,k.anderson@amonic.com,4570,Katrin,Anderson,Doha,11/10/1992,1
+        ///User,h.wyrick@amonic.com,1199,Hava,Wyrick,Abu dhabi,8/8/1988,1
+        ///User,marie.horn@amonic.com,55555,Marie,Horn,Bahrain,4/6/1981,1
+        ///User,m.osteen@amonic.com,9800,Milagros,Osteen,Abu dhabi,2/3/19 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string WSC2017_TP09_S1_UserData {
+            get {
+                return ResourceManager.GetString("WSC2017_TP09_S1_UserData", resourceCulture);
+            }
+        }
     }
 }
